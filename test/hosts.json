@@ -17,7 +17,7 @@
         },
         "system_profile_facts": {
             "owner_id": "22cd8e39-13bb-4d02-8316-84b850dc5136",
-            "os_release": "7.4",
+            "os_release": "7.10",
             "os_kernel_version": "4.18.2",
             "infrastructure_type": "physical",
             "infrastructure_vendor": "ex1",
@@ -33,8 +33,8 @@
             "is_marketplace": true,
             "rhc_client_id": "22cd8e39-13bb-4d02-8316-84b850dc5136",
             "operating_system": {
-                "major": 0,
-                "minor": 0,
+                "major": 7,
+                "minor": 10,
                 "name": "RHEL"
             },
             "rhc_config_state": "22cd8e39-13bb-4d02-8316-84b850dc5136",
@@ -192,9 +192,9 @@
             "is_marketplace": false,
             "rhc_client_id": "33cd8e39-13bb-4d02-8316-84b850dc5136",
             "operating_system": {
-                "major": 1,
-                "minor": 1,
-                "name": "FED"
+                "major": 8,
+                "minor": 2,
+                "name": "RHEL"
             },
             "owner_id": "2c68e8ec-10e2-11ec-82a8-0242ac130003",
             "rhc_config_state": "2c68e8ec-10e2-11ec-82a8-0242ac130003",
@@ -328,8 +328,8 @@
             "is_marketplace": true,
             "rhc_client_id": "2fa3e796-10e2-11ec-82a8-0242ac130003",
             "operating_system": {
-                "major": 2,
-                "minor": 2,
+                "major": 7,
+                "minor": 5,
                 "name": "RHEL"
             },
             "host_type": "edge",
@@ -452,6 +452,54 @@
             "owner_id": "it8i99u1-48ut-1rdf-bc10-84opf904test",
             "operating_system": {
                 "name": "RHEL"
+            }
+        }
+    },
+    {
+        "id": "f5ac67e1-ad65-4b62-bc27-845cc6d4bc05",
+        "account": "test",
+        "display_name": "test1.rhel7.aprice.local",
+        "created_on": "2019-03-10T08:07:03.354307Z",
+        "modified_on": "2019-03-10T08:07:03.354312Z",
+        "stale_timestamp": "2030-03-10T08:07:03.354307Z",
+        "reporter": "puptoo",
+        "ansible_host": "test01.rhel7.aprice.local",
+        "canonical_facts": {
+            "fqdn": "fqdn.test1.rhel7.aprice.local",
+            "insights_id": "371e0253-b145-4428-9f7a-7d934aad9805",
+            "satellite_id": "ce87bfac-a6cb-43a0-80ce-95d9669db705",
+            "subscription_manager_id": "1d073c47-8467-4372-b585-7b0d40d2ee05"
+        },
+        "system_profile_facts": {
+            "owner_id": "it8i99u1-48ut-1rdf-bc10-84opf904test",
+            "operating_system": {
+                "name": "RHEL",
+                "major": 8,
+                "minor": 0
+            }
+        }
+    },
+    {
+        "id": "f5ac67e1-ad65-4b62-bc27-845cc6d4bc06",
+        "account": "test",
+        "display_name": "test1.rhel7.aprice.local",
+        "created_on": "2019-03-10T08:07:03.354307Z",
+        "modified_on": "2019-03-10T08:07:03.354312Z",
+        "stale_timestamp": "2030-03-10T08:07:03.354307Z",
+        "reporter": "puptoo",
+        "ansible_host": "test01.rhel7.aprice.local",
+        "canonical_facts": {
+            "fqdn": "fqdn.test1.rhel7.aprice.local",
+            "insights_id": "371e0253-b145-4428-9f7a-7d934aad9806",
+            "satellite_id": "ce87bfac-a6cb-43a0-80ce-95d9669db706",
+            "subscription_manager_id": "1d073c47-8467-4372-b585-7b0d40d2ee07"
+        },
+        "system_profile_facts": {
+            "owner_id": "it8i99u1-48ut-1rdf-bc10-84opf904test",
+            "operating_system": {
+                "name": "RHEL",
+                "major": 7,
+                "minor": 0
             }
         }
     },
