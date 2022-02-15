@@ -2,7 +2,7 @@
     {
         "id": "22cd8e39-13bb-4d02-8316-84b850dc5136",
         "account": "test",
-        "display_name": "test02.rhel7.jharting.local",
+        "display_name": "test01.rhel710.jharting.local",
         "created_on": "2019-01-10T08:07:03.354307Z",
         "modified_on": "2019-01-10T08:07:03.354312Z",
         "stale_timestamp": "2030-01-10T08:07:03.354307Z",
@@ -162,7 +162,7 @@
     {
         "id": "6e7b6317-0a2d-4552-a2f2-b7da0aece49d",
         "account": "test",
-        "display_name": "test01.rhel7.jharting.local",
+        "display_name": "test02.rhel82.jharting.local",
         "created_on": "2019-02-10T08:07:03.354307Z",
         "modified_on": "2019-02-10T08:07:03.354312Z",
         "stale_timestamp": "2030-02-10T08:07:03.354307Z",
@@ -300,7 +300,7 @@
     {
         "id": "f5ac67e1-ad65-4b62-bc27-845cc6d4bcee",
         "account": "test",
-        "display_name": "test03.rhel7.jharting.local",
+        "display_name": "test03.rhel75.jharting.local",
         "created_on": "2019-03-10T08:07:03.354307Z",
         "modified_on": "2019-03-10T08:07:03.354312Z",
         "stale_timestamp": "2030-03-10T08:07:03.354307Z",
@@ -445,7 +445,7 @@
     {
         "id": "f5ac67e1-ad65-4b62-bc27-845cc6d4bc01",
         "account": "test",
-        "display_name": "test1.rhel7.aprice.local",
+        "display_name": "test04.rhel91.aprice.local",
         "created_on": "2019-03-10T08:07:03.354307Z",
         "modified_on": "2019-03-10T08:07:03.354312Z",
         "stale_timestamp": "2030-03-10T08:07:03.354307Z",
@@ -460,14 +460,16 @@
         "system_profile_facts": {
             "owner_id": "it8i99u1-48ut-1rdf-bc10-84opf904test",
             "operating_system": {
-                "name": "RHEL"
+                "name": "RHEL",
+                "major": "9",
+                "minor": "1"
             }
         }
     },
     {
         "id": "f5ac67e1-ad65-4b62-bc27-845cc6d4bc05",
         "account": "test",
-        "display_name": "test1.rhel7.aprice.local",
+        "display_name": "test05.rhel80.aprice.local",
         "created_on": "2019-03-10T08:07:03.354307Z",
         "modified_on": "2019-03-10T08:07:03.354312Z",
         "stale_timestamp": "2030-03-10T08:07:03.354307Z",
@@ -491,7 +493,7 @@
     {
         "id": "f5ac67e1-ad65-4b62-bc27-845cc6d4bc06",
         "account": "test",
-        "display_name": "test1.rhel7.aprice.local",
+        "display_name": "test06.rhel70.aprice.local",
         "created_on": "2019-03-10T08:07:03.354307Z",
         "modified_on": "2019-03-10T08:07:03.354312Z",
         "stale_timestamp": "2030-03-10T08:07:03.354307Z",
@@ -515,7 +517,7 @@
     {
         "id": "f5ac67e1-ad65-4b62-bc27-845cc6d4bc02",
         "account": "test",
-        "display_name": "test2.rhel7.aprice.local",
+        "display_name": "test07.cent85.aprice.local",
         "created_on": "2019-03-10T08:07:03.354307Z",
         "modified_on": "2019-03-10T08:07:03.354312Z",
         "stale_timestamp": "2030-03-10T08:07:03.354307Z",
@@ -530,14 +532,16 @@
         "system_profile_facts": {
             "owner_id": "it8i99u1-48ut-1rdf-bc10-84opf904test",
             "operating_system": {
-                "major": 8
+                "major": 8,
+                "minor": 5,
+                "name": "CENT"
             }
         }
     },
     {
         "id": "f5ac67e1-ad65-4b62-bc27-845cc6d4bc03",
         "account": "test",
-        "display_name": "test3.rhel8.aprice.local",
+        "display_name": "test08.cent80.aprice.local",
         "created_on": "2019-03-10T08:07:03.354307Z",
         "modified_on": "2019-03-10T08:07:03.354312Z",
         "stale_timestamp": "2030-03-10T08:07:03.354307Z",
@@ -553,14 +557,15 @@
             "owner_id": "it8i99u1-48ut-1rdf-bc10-84opf904test",
             "operating_system": {
                 "name": "CENT",
-                "major": 8
+                "major": 8,
+                "minor": 0
             }
         }
     },
     {
         "id": "f5ac67e1-ad65-4b62-bc27-845cc6d4bc04",
         "account": "test",
-        "display_name": "test4.rhel.aprice.local",
+        "display_name": "test09.cent77.aprice.local",
         "created_on": "2019-03-10T08:07:03.354307Z",
         "modified_on": "2019-03-10T08:07:03.354312Z",
         "stale_timestamp": "2030-03-10T08:07:03.354307Z",
@@ -576,7 +581,8 @@
             "owner_id": "it8i99u1-48ut-1rdf-bc10-84opf904test",
             "operating_system": {
                 "name": "CENT",
-                "minor": 7
+                "minor": 7,
+                "major": 7
             }
         }
     },
