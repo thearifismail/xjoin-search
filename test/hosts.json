@@ -16,7 +16,7 @@
             "provider_id": "ce87bfac-a6cb-43a0-80ce-95d9669db71f"
         },
         "system_profile_facts": {
-            "owner_id": "22cd8e39-13bb-4d02-8316-84b850dc5136",
+            "owner_id": "1b36b20f-7fa0-4454-a6d2-008294e06378",
             "os_release": "7.4",
             "os_kernel_version": "4.18.2",
             "infrastructure_type": "physical",
@@ -185,7 +185,6 @@
         "ansible_host": "test01.rhel7.jharting.local",
         "canonical_facts": {
             "fqdn": "fqdn.test01.rhel7.jharting.local",
-            "insights_id": "a58c53e0-8000-4384-b902-c70b69faacc5",
             "satellite_id": "ce87bfac-a6cb-43a0-80ce-95d9669db71f",
             "provider_type": "aws",
             "provider_id": "1d073c47-8467-4372-b585-7b0d40d2ee3c"
@@ -214,7 +213,7 @@
                 "minor": 1,
                 "name": "FED"
             },
-            "owner_id": "2c68e8ec-10e2-11ec-82a8-0242ac130003",
+            "owner_id": "1b36b20f-7fa0-4454-a6d2-008294e06378",
             "rhc_config_state": "2c68e8ec-10e2-11ec-82a8-0242ac130003",
             "cpu_model": "Intel(R) Xeon(R) CPU E9-7800 0 @ 1.90GHz",
             "subscription_status": "ex2",
@@ -345,18 +344,17 @@
         "created_on": "2019-03-10T08:07:03.354307Z",
         "modified_on": "2019-03-10T08:07:03.354312Z",
         "stale_timestamp": "2030-03-10T08:07:03.354307Z",
-        "reporter": "puptoo",
+        "reporter": "rhsm-conduit",
         "ansible_host": "test03.rhel7.jharting.local",
         "canonical_facts": {
             "fqdn": "fqdn.test03.rhel7.jharting.local",
-            "insights_id": "371e0253-b145-4428-9f7a-7d934aad983d",
-            "satellite_id": "ce87bfac-a6cb-43a0-80ce-95d9669db71f",
-            "subscription_manager_id": "1d073c47-8467-4372-b585-7b0d40d2ee3c",
+             "satellite_id": "ce87bfac-a6cb-43a0-80ce-95d9669db71f",
+            "subscription_manager_id": "1b36b20f-7fa0-4454-a6d2-008294e06378",
             "provider_type": "alibaba",
             "provider_id": "1d073c47-8467-4372-b585-7b0d40d2ee3c"
         },
         "system_profile_facts": {
-            "owner_id": "it8i99u1-48ut-1rdf-bc10-84opf904lbop",
+            "owner_id": "1b36b20f-7fa0-4454-a6d2-008294e06378",
             "os_release": "7.5",
             "os_kernel_version": "5.1.0",
             "infrastructure_type": "imaginary",
@@ -483,9 +481,9 @@
             "insights-client/os/fedora"
         ],
         "per_reporter_staleness": {
-            "puptoo": {
-                "last_check_in": "2019-03-09T08:07:03.354307Z",
-                "stale_timestamp": "2019-03-10T08:07:03.354307Z",
+            "rhsm-conduit": {
+                "last_check_in": "2019-01-10T08:07:03.354312Z",
+                "stale_timestamp": "2030-01-10T08:07:03.354307Z",
                 "check_in_succeeded": true
             },
             "yupana": {
@@ -496,9 +494,9 @@
         },
         "per_reporter_staleness_flat": [
             {
-                "reporter": "puptoo",
-                "last_check_in": "2019-03-09T08:07:03.354307Z",
-                "stale_timestamp": "2019-03-10T08:07:03.354307Z",
+                "reporter": "rhsm-conduit",
+                "last_check_in": "2019-01-10T08:07:03.354312Z",
+                "stale_timestamp": "2030-01-10T08:07:03.354307Z",
                 "check_in_succeeded": true
             },
             {
@@ -516,22 +514,21 @@
         "created_on": "2019-03-10T08:07:03.354307Z",
         "modified_on": "2019-03-10T08:07:03.354312Z",
         "stale_timestamp": "2030-03-10T08:07:03.354307Z",
-        "reporter": "puptoo",
+        "reporter": "rhsm-conduit",
         "ansible_host": "test01.rhel7.aprice.local",
         "canonical_facts": {
             "fqdn": "fqdn.test1.rhel7.aprice.local",
-            "insights_id": "371e0253-b145-4428-9f7a-7d934aad9801",
             "satellite_id": "ce87bfac-a6cb-43a0-80ce-95d9669db701",
-            "subscription_manager_id": "1d073c47-8467-4372-b585-7b0d40d2ee01"
+            "subscription_manager_id": "1b36b20f-7fa0-4454-a6d2-008294e06378"
         },
         "system_profile_facts": {
-            "owner_id": "it8i99u1-48ut-1rdf-bc10-84opf904test",
+            "owner_id": "1b36b20f-7fa0-4454-a6d2-008294e06378",
             "operating_system": {
                 "name": "RHEL"
             }
         },
         "per_reporter_staleness": {
-            "puptoo": {
+            "rhsm-conduit": {
                 "last_check_in": "2019-01-10T08:07:03.354312Z",
                 "stale_timestamp": "2030-01-10T08:07:03.354307Z",
                 "check_in_succeeded": true
@@ -539,12 +536,12 @@
         },
         "per_reporter_staleness_flat": [
             {
-                "reporter": "puptoo",
+                "reporter":"rhsm-conduit",
                 "last_check_in": "2019-01-10T08:07:03.354312Z",
                 "stale_timestamp": "2030-01-10T08:07:03.354307Z",
                 "check_in_succeeded": true
             }
-        ]
+      ]
     },
     {
         "id": "f5ac67e1-ad65-4b62-bc27-845cc6d4bc02",
@@ -553,16 +550,15 @@
         "created_on": "2019-03-10T08:07:03.354307Z",
         "modified_on": "2019-03-10T08:07:03.354312Z",
         "stale_timestamp": "2030-03-10T08:07:03.354307Z",
-        "reporter": "puptoo",
+        "reporter": "rhsm-conduit",
         "ansible_host": "test02.rhel7.aprice.local",
         "canonical_facts": {
             "fqdn": "fqdn.test2.rhel7.aprice.local",
-            "insights_id": "371e0253-b145-4428-9f7a-7d934aad9802",
             "satellite_id": "ce87bfac-a6cb-43a0-80ce-95d9669db702",
-            "subscription_manager_id": "1d073c47-8467-4372-b585-7b0d40d2ee02"
+            "subscription_manager_id": "1b36b20f-7fa0-4454-a6d2-008294e06378"
         },
         "system_profile_facts": {
-            "owner_id": "it8i99u1-48ut-1rdf-bc10-84opf904test",
+            "owner_id": "1b36b20f-7fa0-4454-a6d2-008294e06378",
             "operating_system": {
                 "major": 8
             }
@@ -575,23 +571,22 @@
         "created_on": "2019-03-10T08:07:03.354307Z",
         "modified_on": "2019-03-10T08:07:03.354312Z",
         "stale_timestamp": "2030-03-10T08:07:03.354307Z",
-        "reporter": "puptoo",
+        "reporter": "rhsm-conduit",
         "ansible_host": "test03.rhel8.aprice.local",
         "canonical_facts": {
             "fqdn": "fqdn.test3.rhel8.aprice.local",
-            "insights_id": "371e0253-b145-4428-9f7a-7d934aad9803",
             "satellite_id": "ce87bfac-a6cb-43a0-80ce-95d9669db703",
-            "subscription_manager_id": "1d073c47-8467-4372-b585-7b0d40d2ee03"
+            "subscription_manager_id": "1b36b20f-7fa0-4454-a6d2-008294e06378"
         },
         "system_profile_facts": {
-            "owner_id": "it8i99u1-48ut-1rdf-bc10-84opf904test",
+            "owner_id": "1b36b20f-7fa0-4454-a6d2-008294e06378",
             "operating_system": {
                 "name": "CENT",
                 "major": 8
             }
         },
         "per_reporter_staleness": {
-            "puptoo": {
+            "rhsm-conduit": {
                 "last_check_in": "2019-01-10T08:07:03.354312Z",
                 "stale_timestamp": "2030-01-10T08:07:03.354307Z",
                 "check_in_succeeded": true
@@ -599,7 +594,7 @@
         },
         "per_reporter_staleness_flat": [
             {
-                "reporter": "puptoo",
+                "reporter": "rhsm-conduit",
                 "last_check_in": "2019-01-10T08:07:03.354312Z",
                 "stale_timestamp": "2030-01-10T08:07:03.354307Z",
                 "check_in_succeeded": true
@@ -613,36 +608,35 @@
         "created_on": "2019-03-10T08:07:03.354307Z",
         "modified_on": "2019-03-10T08:07:03.354312Z",
         "stale_timestamp": "2030-03-10T08:07:03.354307Z",
-        "reporter": "puptoo",
+        "reporter": "rhsm-conduit",
         "ansible_host": "test04.rhel.aprice.local",
         "canonical_facts": {
             "fqdn": "fqdn.test4.rhel.aprice.local",
-            "insights_id": "371e0253-b145-4428-9f7a-7d934aad9804",
             "satellite_id": "ce87bfac-a6cb-43a0-80ce-95d9669db704",
-            "subscription_manager_id": "1d073c47-8467-4372-b585-7b0d40d2ee04"
+            "subscription_manager_id": "1b36b20f-7fa0-4454-a6d2-008294e06378"
         },
         "system_profile_facts": {
-            "owner_id": "it8i99u1-48ut-1rdf-bc10-84opf904test",
+            "owner_id": "1b36b20f-7fa0-4454-a6d2-008294e06378",
             "operating_system": {
                 "name": "CENT",
                 "minor": 7
             }
         },
         "per_reporter_staleness": {
-            "puptoo": {
+            "rhsm-conduit": {
                 "last_check_in": "2019-01-10T08:07:03.354312Z",
                 "stale_timestamp": "2030-01-10T08:07:03.354307Z",
                 "check_in_succeeded": true
             }
         },
         "per_reporter_staleness_flat": [
-            {
-                "reporter": "puptoo",
-                "last_check_in": "2019-01-10T08:07:03.354312Z",
-                "stale_timestamp": "2030-01-10T08:07:03.354307Z",
-                "check_in_succeeded": true
-            }
-        ]
+          {
+            "reporter": "rhsm-conduit",
+            "last_check_in": "2019-01-10T08:07:03.354312Z",
+            "stale_timestamp": "2030-01-10T08:07:03.354307Z",
+            "check_in_succeeded": true
+          }
+      ]
     },
     {
         "id": "a5ac67e1-ad65-4b62-bc27-845cc6d4bcea",
@@ -651,17 +645,16 @@
         "created_on": "2019-03-10T08:07:03.354307Z",
         "modified_on": "2019-03-10T08:07:03.354312Z",
         "stale_timestamp": "2030-03-10T08:07:03.354307Z",
-        "reporter": "puptoo",
+        "reporter": "rhsm-conduit",
         "ansible_host": "test03.rhel7.jharting.local",
         "canonical_facts": {
             "fqdn": "fqdn.test03.rhel7.jharting.local",
-            "insights_id": "371e0253-b145-4428-9f7a-7d934aad983d",
             "satellite_id": "ce87bfac-a6cb-43a0-80ce-95d9669db71f",
-            "subscription_manager_id": "1d073c47-8467-4372-b585-7b0d40d2ee3c"
+            "subscription_manager_id": "1b36b20f-7fa0-4454-a6d2-008294e06378"
         },
         "system_profile_facts": {
             "arch": "x86_64",
-            "owner_id": "y78i67p7-ub70-1rdf-bc10-845cc604lbee",
+            "owner_id": "1b36b20f-7fa0-4454-a6d2-008294e06378",
             "os_release": "7.5",
             "os_kernel_version": "3.10.0",
             "infrastructure_type": "physical",
@@ -679,7 +672,7 @@
             "satellite_managed": false
         },
         "per_reporter_staleness": {
-            "puptoo": {
+            "rhsm-conduit": {
                 "last_check_in": "2019-01-10T08:07:03.354312Z",
                 "stale_timestamp": "2030-01-10T08:07:03.354307Z",
                 "check_in_succeeded": true
@@ -687,7 +680,7 @@
         },
         "per_reporter_staleness_flat": [
             {
-                "reporter": "puptoo",
+                "reporter": "rhsm-conduit",
                 "last_check_in": "2019-01-10T08:07:03.354312Z",
                 "stale_timestamp": "2030-01-10T08:07:03.354307Z",
                 "check_in_succeeded": true
@@ -701,13 +694,12 @@
         "created_on": "2019-03-10T08:07:03.354307Z",
         "modified_on": "2019-03-10T08:07:03.354312Z",
         "stale_timestamp": "2030-03-10T08:07:03.354307Z",
-        "reporter": "puptoo",
+        "reporter": "rhsm-conduit",
         "ansible_host": "test03.rhel7.jharting.local",
         "canonical_facts": {
             "fqdn": "fqdn.test03.rhel7.jharting.local",
-            "insights_id": "371e0253-b145-4428-9f7a-7d934aad983d",
             "satellite_id": "ce87bfac-a6cb-43a0-80ce-95d9669db71f",
-            "subscription_manager_id": "1d073c47-8467-4372-b585-7b0d40d2ee3c",
+            "subscription_manager_id": "1b36b20f-7fa0-4454-a6d2-008294e06378",
             "provider_type": "aws",
             "provider_id": "1d073c47-8467-4372-b585-7b0d40d2ee3c"
         },
@@ -730,19 +722,19 @@
             "satellite_managed": false
         },
         "per_reporter_staleness": {
-            "puptoo": {
+            "rhsm-conduit": {
                 "last_check_in": "2019-01-10T08:07:03.354312Z",
                 "stale_timestamp": "2030-01-10T08:07:03.354307Z",
                 "check_in_succeeded": true
             }
         },
         "per_reporter_staleness_flat": [
-            {
-                "reporter": "puptoo",
+          {
+              "reporter": "rhsm-conduit",
                 "last_check_in": "2019-01-10T08:07:03.354312Z",
                 "stale_timestamp": "2030-01-10T08:07:03.354307Z",
                 "check_in_succeeded": true
-            }
+          }
         ]
     },
     {
@@ -752,13 +744,12 @@
         "created_on": "2019-03-10T08:07:03.354307Z",
         "modified_on": "2019-03-10T08:07:03.354312Z",
         "stale_timestamp": "2030-03-10T08:07:03.354307Z",
-        "reporter": "puptoo",
+        "reporter": "rhsm-conduit",
         "ansible_host": "test03.rhel7.jharting.local",
         "canonical_facts": {
             "fqdn": "fqdn.test03.rhel7.jharting.local",
-            "insights_id": "371e0253-b145-4428-9f7a-7d934aad983d",
             "satellite_id": "ce87bfac-a6cb-43a0-80ce-95d9669db71f",
-            "subscription_manager_id": "1d073c47-8467-4372-b585-7b0d40d2ee3c"
+            "subscription_manager_id": "1b36b20f-7fa0-4454-a6d2-008294e06378"
         },
         "system_profile_facts": {
             "arch": "x86_64",
@@ -779,7 +770,7 @@
             "satellite_managed": false
         },
         "per_reporter_staleness": {
-            "puptoo": {
+            "rhsm-conduit": {
                 "last_check_in": "2019-01-10T08:07:03.354312Z",
                 "stale_timestamp": "2030-01-10T08:07:03.354307Z",
                 "check_in_succeeded": true
@@ -787,7 +778,7 @@
         },
         "per_reporter_staleness_flat": [
             {
-                "reporter": "puptoo",
+                "reporter": "rhsm-conduit",
                 "last_check_in": "2019-01-10T08:07:03.354312Z",
                 "stale_timestamp": "2030-01-10T08:07:03.354307Z",
                 "check_in_succeeded": true
@@ -801,13 +792,12 @@
         "created_on": "2019-03-10T08:07:03.354307Z",
         "modified_on": "2019-03-10T08:07:03.354312Z",
         "stale_timestamp": "2030-03-10T08:07:03.354307Z",
-        "reporter": "puptoo",
+        "reporter": "rhsm-conduit",
         "ansible_host": "test03.rhel7.jharting.local",
         "canonical_facts": {
             "fqdn": "fqdn.test03.rhel7.jharting.local",
-            "insights_id": "371e0253-b145-4428-9f7a-7d934aad983d",
             "satellite_id": "ce87bfac-a6cb-43a0-80ce-95d9669db71f",
-            "subscription_manager_id": "1d073c47-8467-4372-b585-7b0d40d2ee3c"
+            "subscription_manager_id": "1b36b20f-7fa0-4454-a6d2-008294e06378"
         },
         "system_profile_facts": {
             "arch": "x86_64",
@@ -828,7 +818,7 @@
             "satellite_managed": false
         },
         "per_reporter_staleness": {
-            "puptoo": {
+            "rhsm-conduit": {
                 "last_check_in": "2019-01-10T08:07:03.354312Z",
                 "stale_timestamp": "2030-01-10T08:07:03.354307Z",
                 "check_in_succeeded": true
@@ -836,7 +826,7 @@
         },
         "per_reporter_staleness_flat": [
             {
-                "reporter": "puptoo",
+                "reporter": "rhsm-conduit",
                 "last_check_in": "2019-01-10T08:07:03.354312Z",
                 "stale_timestamp": "2030-01-10T08:07:03.354307Z",
                 "check_in_succeeded": true
@@ -850,13 +840,12 @@
         "created_on": "2019-03-10T08:07:03.354307Z",
         "modified_on": "2019-03-10T08:07:03.354312Z",
         "stale_timestamp": "2030-03-10T08:07:03.354307Z",
-        "reporter": "puptoo",
+        "reporter": "rhsm-conduit",
         "ansible_host": "test03.rhel7.jharting.local",
         "canonical_facts": {
             "fqdn": "fqdn.test03.rhel7.jharting.local",
-            "insights_id": "371e0253-b145-4428-9f7a-7d934aad983d",
             "satellite_id": "ce87bfac-a6cb-43a0-80ce-95d9669db71f",
-            "subscription_manager_id": "1d073c47-8467-4372-b585-7b0d40d2ee3c"
+            "subscription_manager_id": "1b36b20f-7fa0-4454-a6d2-008294e06378"
         },
         "system_profile_facts": {
             "arch": "x86_64",
@@ -877,19 +866,19 @@
             "satellite_managed": false
         },
         "per_reporter_staleness": {
-            "puptoo": {
+            "rhsm-conduit": {
                 "last_check_in": "2019-01-10T08:07:03.354312Z",
                 "stale_timestamp": "2030-01-10T08:07:03.354307Z",
                 "check_in_succeeded": true
             }
         },
         "per_reporter_staleness_flat": [
-            {
-                "reporter": "puptoo",
-                "last_check_in": "2019-01-10T08:07:03.354312Z",
-                "stale_timestamp": "2030-01-10T08:07:03.354307Z",
-                "check_in_succeeded": true
-            }
+          {
+            "reporter": "rhsm-conduit",
+            "last_check_in": "2019-01-10T08:07:03.354312Z",
+            "stale_timestamp": "2030-01-10T08:07:03.354307Z",
+            "check_in_succeeded": true
+          }
         ]
     },
     {
@@ -899,13 +888,12 @@
         "created_on": "2019-03-10T08:07:03.354307Z",
         "modified_on": "2019-03-10T08:07:03.354312Z",
         "stale_timestamp": "2030-03-10T08:07:03.354307Z",
-        "reporter": "puptoo",
+        "reporter": "rhsm-conduit",
         "ansible_host": "test03.rhel7.jharting.local",
         "canonical_facts": {
             "fqdn": "fqdn.test03.rhel7.jharting.local",
-            "insights_id": "371e0253-b145-4428-9f7a-7d934aad983d",
             "satellite_id": "ce87bfac-a6cb-43a0-80ce-95d9669db71f",
-            "subscription_manager_id": "1d073c47-8467-4372-b585-7b0d40d2ee3c"
+            "subscription_manager_id": "1b36b20f-7fa0-4454-a6d2-008294e06378"
         },
         "system_profile_facts": {
             "arch": "x86_64",
@@ -926,7 +914,7 @@
             "satellite_managed": false
         },
         "per_reporter_staleness": {
-            "puptoo": {
+            "rhsm-conduit": {
                 "last_check_in": "2019-01-10T08:07:03.354312Z",
                 "stale_timestamp": "2030-01-10T08:07:03.354307Z",
                 "check_in_succeeded": true
@@ -934,7 +922,7 @@
         },
         "per_reporter_staleness_flat": [
             {
-                "reporter": "puptoo",
+                "reporter": "rhsm-conduit",
                 "last_check_in": "2019-01-10T08:07:03.354312Z",
                 "stale_timestamp": "2030-01-10T08:07:03.354307Z",
                 "check_in_succeeded": true
@@ -952,7 +940,6 @@
         "ansible_host": "test01.rhel7.jharting.local",
         "canonical_facts": {
             "fqdn": "fqdn.test01.rhel7.jharting.local",
-            "insights_id": "a58c53e0-8000-4384-b902-c70b69faacc5",
             "satellite_id": "ce87bfac-a6cb-43a0-80ce-95d9669db71f"
         },
         "system_profile_facts": {
@@ -1022,7 +1009,6 @@
         "ansible_host": "test01.rhel7.jharting.local",
         "canonical_facts": {
             "fqdn": "fqdn.test01.rhel7.jharting.local",
-            "insights_id": "a58c53e0-8000-4384-b902-c70b69faacc5",
             "satellite_id": "ce87bfac-a6cb-43a0-80ce-95d9669db71f"
         },
         "system_profile_facts": {
@@ -1091,8 +1077,7 @@
         "reporter": "puptoo",
         "ansible_host": "aaBBccDD01.local",
         "canonical_facts": {
-            "fqdn": "aaBBccDD01.local",
-            "insights_id": "371e0253-b145-4428-9f7a-7d934aad983d"
+            "fqdn": "aaBBccDD01.local"
         },
         "system_profile_facts": {
             "arch": "x86_64"
@@ -1123,8 +1108,7 @@
         "reporter": "puptoo",
         "ansible_host": "aaBBccDD02.local",
         "canonical_facts": {
-            "fqdn": "aaBBccDD02.local",
-            "insights_id": "371e0253-b145-4428-9f7a-7d934aad983d"
+            "fqdn": "aaBBccDD02.local"
         },
         "system_profile_facts": {}
     },
@@ -1138,8 +1122,7 @@
         "reporter": "puptoo",
         "ansible_host": "foo.local",
         "canonical_facts": {
-            "fqdn": "foo.local",
-            "insights_id": "dc88db78-75f6-4815-9401-7a30df6a35ea"
+            "fqdn": "foo.local"
         },
         "system_profile_facts": {},
         "tags_structured": [
@@ -1217,11 +1200,10 @@
         "created_on": "2019-03-10T08:07:03.354307Z",
         "modified_on": "2019-03-10T08:07:03.354312Z",
         "stale_timestamp": "2030-03-10T08:07:03.354307Z",
-        "reporter": "puptoo",
+        "reporter": "cloud-connector",
         "ansible_host": "bar.local",
         "canonical_facts": {
-            "fqdn": "bar.local",
-            "insights_id": "f2fea2de-5dd5-4f32-a6c1-142c7affc321"
+            "fqdn": "bar.local"
         },
         "system_profile_facts": {},
         "tags_structured": [
@@ -1277,7 +1259,7 @@
             "insights-client/bar/8"
         ],
         "per_reporter_staleness": {
-            "puptoo": {
+            "cloud-connector": {
                 "last_check_in": "2019-01-10T08:07:03.354312Z",
                 "stale_timestamp": "2030-01-10T08:07:03.354307Z",
                 "check_in_succeeded": true
@@ -1285,7 +1267,7 @@
         },
         "per_reporter_staleness_flat": [
             {
-                "reporter": "puptoo",
+                "reporter": "cloud-connector",
                 "last_check_in": "2019-01-10T08:07:03.354312Z",
                 "stale_timestamp": "2030-01-10T08:07:03.354307Z",
                 "check_in_succeeded": true
@@ -1299,13 +1281,14 @@
         "created_on": "2019-03-10T08:07:03.354307Z",
         "modified_on": "2019-03-10T08:07:03.354312Z",
         "stale_timestamp": "2030-03-10T08:07:03.354307Z",
-        "reporter": "puptoo",
+        "reporter": "cloud-connector",
         "ansible_host": "foo.local",
         "canonical_facts": {
-            "fqdn": "foo.local",
-            "insights_id": "295f1ac0-fcf4-4255-83cb-b0c779de3951"
+            "fqdn": "foo.local"
         },
-        "system_profile_facts": {},
+        "system_profile_facts": { 
+            "host_type": "edge"
+        },
         "tags_structured": [
             {
                 "namespace": "null",
@@ -1317,7 +1300,7 @@
             "null/foo"
         ],
         "per_reporter_staleness": {
-            "puptoo": {
+            "cloud-connector": {
                 "last_check_in": "2019-01-10T08:07:03.354312Z",
                 "stale_timestamp": "2030-01-10T08:07:03.354307Z",
                 "check_in_succeeded": true
@@ -1325,7 +1308,7 @@
         },
         "per_reporter_staleness_flat": [
             {
-                "reporter": "puptoo",
+                "reporter": "cloud-connector",
                 "last_check_in": "2019-01-10T08:07:03.354312Z",
                 "stale_timestamp": "2030-01-10T08:07:03.354307Z",
                 "check_in_succeeded": true
@@ -1339,13 +1322,14 @@
         "created_on": "2019-03-10T08:07:03.354307Z",
         "modified_on": "2019-03-10T08:07:03.354312Z",
         "stale_timestamp": "2030-03-10T08:07:03.354307Z",
-        "reporter": "puptoo",
+        "reporter": "yupana",
         "ansible_host": "foo.local",
         "canonical_facts": {
-            "fqdn": "foo.local",
-            "insights_id": "d4d30804-93a5-463c-86d4-e639443fb5c5"
+            "fqdn": "foo.local"
         },
-        "system_profile_facts": {},
+        "system_profile_facts": {
+            "host_type": "edge"
+        },
         "tags_structured": [
             {
                 "namespace": "insights-client",
@@ -1354,7 +1338,7 @@
             }
         ],
         "per_reporter_staleness": {
-            "puptoo": {
+            "yupana": {
                 "last_check_in": "2019-01-10T08:07:03.354312Z",
                 "stale_timestamp": "2030-01-10T08:07:03.354307Z",
                 "check_in_succeeded": true
@@ -1362,7 +1346,7 @@
         },
         "per_reporter_staleness_flat": [
             {
-                "reporter": "puptoo",
+                "reporter": "yupana",
                 "last_check_in": "2019-01-10T08:07:03.354312Z",
                 "stale_timestamp": "2030-01-10T08:07:03.354307Z",
                 "check_in_succeeded": true
@@ -1376,7 +1360,7 @@
         "created_on": "2019-03-10T08:07:03.354307Z",
         "modified_on": "2019-03-10T08:07:03.354312Z",
         "stale_timestamp": "2030-03-10T08:07:03.354307Z",
-        "reporter": "puptoo",
+        "reporter": "yupana",
         "ansible_host": "bar.local",
         "canonical_facts": {
             "fqdn": "bar.local",
@@ -1406,7 +1390,7 @@
             }
         ],
         "per_reporter_staleness": {
-            "puptoo": {
+            "yupana": {
                 "last_check_in": "2019-01-10T08:07:03.354312Z",
                 "stale_timestamp": "2030-01-10T08:07:03.354307Z",
                 "check_in_succeeded": true
@@ -1414,7 +1398,7 @@
         },
         "per_reporter_staleness_flat": [
             {
-                "reporter": "puptoo",
+                "reporter": "yupana",
                 "last_check_in": "2019-01-10T08:07:03.354312Z",
                 "stale_timestamp": "2030-01-10T08:07:03.354307Z",
                 "check_in_succeeded": true
