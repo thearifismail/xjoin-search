@@ -30,27 +30,14 @@ const playground = {
         query: `{
   hosts (
     filter: {
-      OR: [{
-        spf_infrastructure_vendor: { eq: "kvm" },
-        spf_os_kernel_version: { eq: "3.11.0" }
-      }, {
-        spf_infrastructure_vendor: { eq: "virtualbox" },
-        spf_os_release: { eq: "7.3" }
-      }],
       display_name: { matches: "*jharting*" }
     },
-    order_by: display_name,
-    order_how: ASC,
-    limit: 10,
-    offset: 0
   ) {
     meta { count, total }
     data {
       id
       account
-      org_id
       display_name
-      modified_on
     }
   }
 }`
@@ -136,7 +123,30 @@ const playground = {
     }
   }
 }`
-    }]
+  }, {
+    endpoint: '',
+    name: 'hostTagsFilter',
+    query: `{
+      hostTags (
+        filter: {
+          search: { regex: "Sat/env=prod"}
+        }
+      ){
+      meta {
+        count,
+        total
+        }
+        data {
+        tag {
+          namespace,
+          key,
+          value
+        },
+        count
+        }
+      }
+    }`
+  }]
 };
 
 export default playground;

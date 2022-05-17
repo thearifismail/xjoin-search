@@ -45,7 +45,7 @@ export default async function hostTags(parent: any, args: QueryHostTagsArgs, con
         if (search.eq) {
             body.aggs.tags.terms.include = [search.eq];
         } else if (search.regex) {
-            body.aggs.tags.terms.include = search.regex;
+            body.aggs.tags.terms.include = ".*"+search.regex+".*"
         }
     }
 
